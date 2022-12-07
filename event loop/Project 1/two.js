@@ -1,14 +1,15 @@
-function multiply(x, y) {
-  return x * y;
+// define three example functions
+function first() {
+  console.log(1);
 }
 
-function squared(n) {
-  return multiply(n, n);
+function second() {
+  console.log(2);
 }
 
-function printSquare(n) {
-  return squared(n);
+function third() {
+  console.log(3);
 }
-
-let numberSquared = printSquare(5);
-console.log(numberSquared);
+first();
+second();
+third();
