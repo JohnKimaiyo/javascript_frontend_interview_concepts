@@ -5,7 +5,7 @@ function first() {
 function second() {
   console.log(2);
 }
-function third() {
+function third() {4
   console.log(3);
 }
 first();
